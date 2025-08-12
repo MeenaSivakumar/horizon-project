@@ -1,0 +1,33 @@
+.nav{
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.nav__list{
+    list-style: none;   
+    display: flex;
+    gap: 1rem;
+}
+
+.nav__item{
+    margin: 0;
+ 
+}
+
+.nav__item a{
+    color: var(--color-white);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav__item a:hover{
+    background-color: var(--color-hover);
+}
+
+.nav__item a:active{
+    background-color: var(--color-active);
+}
+
+.nav__item a:visited{
+    color: var(--color-visited);
+}
