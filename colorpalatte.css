@@ -1,0 +1,25 @@
+:root{
+    /*primary color*/
+    --color-primary:#ff3300;
+    --color-primary-light:#ff9980;
+
+    /* secondary colors */ 
+    --color-secondary: #ffff99;
+   
+    /* link color*/
+    --color-link:#33ccff;
+
+    /*hover colors*/
+    --color-hover:#ffb3ff;
+
+    /* active colors*/
+    --color-active:#66ff99;
+     
+    /* visited colors*/
+    --color-visited:#f12800;
+     
+    /* netutrals*/
+    --color-white:#ffffff;
+    --color-black:#000000;
+
+}
