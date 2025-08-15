@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Properties</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section>
+    <h1>Grid</h1>
+    <div>
+        Grid container - parent container specifies the rows and col structure
+    </div>
+    <div>grid items - items inside the container</div>
+    <div>elament become grid container when its display property set to grid</div>
+
+    </div>
+    <!-- display grid-->
+    <div class="container">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+        <div>six</div>
+    </div>
+
+    <div>the container becomes inline-grid by setting property to display:inline-grid </div>
+    <!-- display inline grid-->
+    <div class="inline-grid">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+        <div>six</div>
+    </div>
+</section>
+    <section>
+    <h2>gaps in grid</h2>
+    <div>the space betwenn each row and col called gap.
+        <li><b>column-gap:</b> space between col</li>
+        <li><b>row-gap:</b> space between rows</li>
+        <li><b>gap:</b> space between col and rows</li>
+    </div>
+    <!--gaps in grid-->
+    <div class="gaps">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+        <div>six</div>
+    </div>
+    </section>
+ <!--col gaps in grid-->
+ <section>
+    <h2>column gap example</h2>
+    <div class="col-gap">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+        <div>six</div>
+    </div>
+ </section>
+    
+  <!--row gaps in grid-->
+ <section>
+    <h2>Row gap example</h2>
+    <div class="row-gap">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+        <div>six</div>
+    </div>
+ </section>
+    
+ <section>
+    <h2>Grid Lines</h2>
+    <div>the lines between col are col lines.the lines between row are row lines.based on the line the start and end is defined.
+       <br> <b>Properties:</b>
+       <li>grid-column-start</li>
+       <li>grid-column-end</li>
+       <li>grid-row-start</li>
+       <li>grid-row-end</li>
+       <li>grid-column</li>
+       <li>grid-row</li>
+ 
+       
+    </div>
+     <div class="grid-lines">
+        <div class="item1">one</div>
+        <div  class="item2">two</div>
+        <div  class="item3">three</div>
+        <div  class="item4">four</div>
+        <div  class="item5">five</div>
+        <div  class="item6">six</div>
+        <div  class="item7">four</div>
+        <div  class="item8">five</div>
+        <div class="item9">six</div>
+    </div>
+</section>
+ 
+
+</body>
+
+</html>
