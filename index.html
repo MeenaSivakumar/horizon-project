@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Typography with Media Queries</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="hero-title">
+      <h1>Responsive Typography & Media Queries</h1>
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#relative">Relative Units</a></li>
+          <li><a href="#mediaqueries">Media Queries</a></li>
+          <li><a href="#wcag">WCAG Basics</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section class="relative-content">
+        <h2>Relative CSS Units</h2>
+        <div class="unit-em">
+          <h3>em</h3>
+          <p>
+            What it means: Relative to the font size of the element’s parent.<br />
+            Think: “How big am I compared to my parent’s font?”<br />
+            Example: If the parent’s font-size is 16px, then 1.5em = 24px.<br />
+            Common uses: Font sizing, spacing that should scale with text.
+          </p>
+        </div>
+        <div class="unit-rem">
+          <h3>rem</h3>
+          <p>
+            What it means: Relative to the font size of the root element
+            (html).<br />
+            Think: “I always compare myself to the main boss — the HTML font
+            size.” <br />
+            Example: If html { font-size: 16px; } then 1rem = 16px everywhere.
+            <br />
+            Common uses: Consistent typography, spacing in design systems.
+          </p>
+        </div>
+        <div class="unit-per">
+          <h3>%</h3>
+          <p>
+            What it means: Relative to another property’s value — depends on
+            context. <br />
+            Think: “I copy a percentage of my parent’s size, but which size
+            depends on the property.” <br />Example: width: 50% → half the
+            parent’s width. padding-top: 50% → half the element’s width .<br />
+            Common uses: Responsive widths, flexible padding/margins.
+          </p>
+        </div>
+        <div class="unit-vw">
+          <h3>vw</h3>
+          <p>
+            What it means: Relative to 1% of the browser’s width.<br />
+            Think: “I resize when the browser window changes width.”
+            <br />Example: On a 1000px-wide screen, 10vw = 100px. Common uses:
+            Full-width layouts, responsive typography.
+          </p>
+        </div>
+        <div class="unit-vh">
+          <h3>vh</h3>
+          <p>
+            What it means: Relative to 1% of the browser’s height.<br />
+            Think: “I resize when the browser window changes height.”
+            <br />Example: On an 800px-tall screen, 50vh = 400px. Common uses:
+            Hero sections, full-screen layouts.
+          </p>
+        </div>
+      </section>
+      <section class="media-query">
+        <h2>Media Queries Mobile First Approach</h2>
+        <div class="media-content">
+          <p>
+            Media queries let you apply CSS only when the screen meets certain
+            conditions.<br />Mobile-first means: Write your default CSS for
+            mobile screens first.<br />
+            Use @media (min-width: …) to add styles for larger screens (tablet,
+            desktop).
+          </p>
+        </div>
+        <div class="mb-breakpoints">
+          <h4>Common mobile-first breakpoints:</h4>
+          <li>Small: 0–480px → phones</li>
+
+          <li>Medium: 481–768px → large phones & small tablets</li>
+          <li>Large: 769–1024px → tablets & small laptops</li>
+          <li>Extra Large: 1025px+ → desktops</li>
+          <li>Mobile-First Order Base (mobile)</li>
+          <li>Tablet (min-width: 768px)</li>
+          <li>Small desktop (min-width: 1024px)</li>
+          <li>Large desktop (min-width: 1440px)</li>
+        </div>
+      </section>
+      <section class="wcag">
+        <h2>WCAG AAA Contrast Ratio</h2>
+        <div class="aaa-ratio">
+          <p>
+            Accessibility ensures your site can be used by all users, including
+            those with disabilities. Contrast ratios help users with low vision
+            or in poor lighting.<br />
+            WCAG standards:
+            <li>AA: Regular text ≥ 4.5:1</li>
+            <li>Large text ≥ 3:1.</li>
+            <li>AAA: Regular text ≥ 7:1,</li>
+            <li>Large text ≥ 4.5:1.</li>
+            <br />
+            “Large text” means ≥ 18px regular weight, or ≥ 14px bold.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
