@@ -1,0 +1,138 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+  background-color: rgb(114, 114, 190);
+  padding: 1%;
+  margin-bottom: 0%;
+}
+
+.logo {
+  height: 15%;
+  width: 15%;
+}
+.photo{
+    height: 75px;
+    width: 75px;
+    display: block;
+    margin: 0 auto;
+}
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav-list li {
+  list-style: none;
+}
+.nav-list li a {
+  color: white;
+}
+.nav-list li a:hover {
+  color: rgb(162, 239, 162);
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(220, 171, 220);
+  border: 2px solid beige;
+  padding: 2rem;
+  margin: 2%;
+  border-radius: 20px;
+}
+h1,
+h2 {
+  color: white;
+}
+.contact-btn,
+.view-more-btn {
+  background-color: rgb(69, 162, 35);
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: auto;
+  /* height: 120%; */
+  width: 80%;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid red;
+  justify-content: center;
+  margin: auto;
+  background-color: rgba(195, 44, 157, 0.819);
+  border-radius: 18px;
+}
+.photo,
+.about {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  
+}
+
+.project-section {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid red;
+  margin-top: 2%;
+  border-radius: 12px;
+  background-color: rgba(137, 43, 226, 0.471);
+}
+.projects-card {
+  border: 1px solid red;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: white;
+  text-align: center;
+  transition: transform 0.5s ease, background-color 0.3s ease;
+}
+.projects-card:hover {
+  background-color: rgba(121, 121, 228, 0.324);
+  transform: translateY(-15px);
+}
+.project-section:hover {
+  background-color: white;
+  border: none;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+footer {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .nav-list {
+    flex-direction: row;
+  }
+  .logo {
+    height: 5%;
+    width: 5%;
+  }
+}
+@media (min-width: 768px) {
+  .about-section {
+    grid-template-columns: auto auto;
+  }
+  
+}
+@media (min-width: 768px) {
+  .project-section {
+    grid-template-columns: auto auto;
+  }
+}
+@media (min-width: 1024px) {
+  .project-section {
+    grid-template-columns: auto auto auto;
+  }
+}
