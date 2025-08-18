@@ -31,6 +31,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;       
+  top: 0;                
+  left: 0;
+  width: 100%;  
 }
 
 .header__logo {
@@ -42,6 +46,8 @@ body {
   display: flex;
   gap: 1rem;
   list-style: none;
+  
+
 }
 
 .header__link {
@@ -89,6 +95,7 @@ body {
 .about__title{
     text-align: center;
     font-size: var(--font-header-size);
+    color: var(--color-bg-header);
 
 }
 
@@ -99,6 +106,7 @@ body {
     text-align: center;
     font-size: var(--font-header-size);
     gap: 5px ;
+    color: var(--color-bg-header);
 }
 .mentors__grid {
   display: grid;
