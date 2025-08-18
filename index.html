@@ -8,32 +8,32 @@
 </head>
 <body>
   <!-- Header -->
-  <header>
-    <h1>Mentor Connect</h1>
-    <nav aria-label="Main navigation">
-      <ul class="nav-list">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#mentors">Mentors</a></li>
-        <li><a href="#contact">Contact</a></li>
+  <header class="header">
+    <div class="header__logo">Mentor Connect</div>
+    <nav class="header__nav" aria-label="Main navigation">
+      <ul class="header__list">
+        <li class="header__item"><a href="#home" class="header__link">Home</a></li>
+        <li class="header__item"><a href="#about" class="header__link">About</a></li>
+        <li class="header__item"><a href="#mentors" class="header__link">Mentors</a></li>
+        <li class="header__item"><a href="#contact" class="header__link">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero-image" >
-    <div class="hero-text">
-      <h2 id="hero-heading">Mentor Support</h2>
-      <p>A platform for students to connect with mentors.</p>
+  <!-- Hero -->
+  <section id="home" class="hero" aria-labelledby="hero-title">
+    <div class="hero__content">
+      <h1 id="hero-title" class="hero__title">Mentor Support</h1>
+      <p class="hero__subtitle">A platform for students to connect with mentors.</p>
     </div>
   </section>
 
   <!-- Main Content -->
   <main>
     <!-- About -->
-    <section id="about" >
-      <h3 id="about-heading">About Us</h3>
-      <p>
+    <section id="about" class="about" aria-labelledby="about-title">
+      <h2 id="about-title" class="about__title">About Us</h2>
+      <p class="about__text">
         We offer hands-on training in the latest technologies and tools,
         ensuring students acquire skills directly applicable to current
         industry demands. Our focus is on practical knowledge and real-world
@@ -42,62 +42,88 @@
       </p>
     </section>
 
-    <!-- Mentor Cards -->
-    <section id="mentors" >
-      <h3 id="mentors-heading">Our Mentors</h3>
+    <!-- Mentors -->
+    <section id="mentors" class="mentors" aria-labelledby="mentors-title">
+      <h2 id="mentors-title" class="mentors__title">Our Mentors</h2>
+      <div class="mentors__grid">
+        <article class="mentor-card">
+          <img src="mentor.jpg" alt="Photo of John Doe, Web Development Mentor" class="mentor-card__img" />
+          <h3 class="mentor-card__name">John Doe</h3>
+          <p class="mentor-card__desc">Expert in Web Development</p>
+          <p class="mentor-card__desc">10 years of industry experience</p>
+        </article>
 
-      <article>
-        <img src="mentor1.jpg" alt="Photo of Mentor Name">
-        <h4>Mentor Name</h4>
-        <p>Expert in Web Development</p>
-        <p>10 years of industry experience</p>
-      </article>
+        <article class="mentor-card">
+          <img src="mentor.jpg" alt="Photo of Jane Smith, Data Science Mentor" class="mentor-card__img" />
+          <h3 class="mentor-card__name">Jane Smith</h3>
+          <p class="mentor-card__desc">Data Science Specialist</p>
+          <p class="mentor-card__desc">8 years of experience in AI/ML</p>
+        </article>
+         <article class="mentor-card">
+          <img src="mentor.jpg" alt="Photo of John Doe, Web Development Mentor" class="mentor-card__img" />
+          <h3 class="mentor-card__name">John Doe</h3>
+          <p class="mentor-card__desc">Expert in Web Development</p>
+          <p class="mentor-card__desc">10 years of industry experience</p>
+        </article>
 
-      <article>
-        <img src="mentor2.jpg" alt="Photo of Mentor Name">
-        <h4>Mentor Name</h4>
-        <p>Data Science Mentor</p>
-        <p>8 years of experience in AI/ML</p>
-      </article>
+        <article class="mentor-card">
+          <img src="mentor.jpg" alt="Photo of Jane Smith, Data Science Mentor" class="mentor-card__img" />
+          <h3 class="mentor-card__name">Jane Smith</h3>
+          <p class="mentor-card__desc">Data Science Specialist</p>
+          <p class="mentor-card__desc">8 years of experience in AI/ML</p>
+        </article>
+         <article class="mentor-card">
+          <img src="mentor.jpg" alt="Photo of John Doe, Web Development Mentor" class="mentor-card__img" />
+          <h3 class="mentor-card__name">John Doe</h3>
+          <p class="mentor-card__desc">Expert in Web Development</p>
+          <p class="mentor-card__desc">10 years of industry experience</p>
+        </article>
+
+        <article class="mentor-card">
+          <img src="mentor.jpg" alt="Photo of Jane Smith, Data Science Mentor" class="mentor-card__img" />
+          <h3 class="mentor-card__name">Jane Smith</h3>
+          <p class="mentor-card__desc">Data Science Specialist</p>
+          <p class="mentor-card__desc">8 years of experience in AI/ML</p>
+        </article>
+      </div>
     </section>
 
-    <!-- Contact Form -->
-    <section id="contact">
-      <h3 id="contact-heading">Contact Us</h3>
-      <form action="">
-        <fieldset>
-          <legend>Send us a message</legend>
-          
-          <label for="first-name">First Name:</label>
-          <input type="text" id="first-name" placeholder="Enter your First Name" required><br>
+    <!-- Contact -->
+    <section id="contact" class="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="contact__title">Contact Us</h2>
+      <form action="" class="contact__form">
+      
 
-          <label for="last-name">Last Name:</label>
-          <input type="text" id="last-name" placeholder="Enter your Last Name"><br>
+          <label for="first-name" class="contact__label">First Name:</label><br>
+          <input type="text" id="first-name" class="contact__input" placeholder="Enter your First Name" required><br>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" placeholder="Enter your email"><br>
+          <label for="last-name" class="contact__label">Last Name:</label><br>
+          <input type="text" id="last-name" class="contact__input" placeholder="Enter your Last Name"><br>
 
-          <label for="phoneNo">Phone No:</label>
-          <input type="tel" id="phoneNo" placeholder="Phone Number"><br>
+          <label for="email" class="contact__label">Email:</label><br>
+          <input type="email" id="email" class="contact__input" placeholder="Enter your email"><br>
 
-          <label for="message">Message:</label>
-          <textarea id="message" placeholder="Write your Message"></textarea><br>
+          <label for="phoneNo" class="contact__label">Phone No:</label><br>
+          <input type="tel" id="phoneNo" class="contact__input" placeholder="Phone Number"><br>
 
-          <input type="submit" value="Submit">
-        </fieldset>
+          <label for="message" class="contact__label">Message:</label><br>
+          <textarea id="message" class="contact__textarea" placeholder="Write your Message"></textarea><br>
+
+          <button type="submit" class="contact__button">Submit</button>
+      
       </form>
     </section>
   </main>
 
   <!-- Footer -->
-  <footer>
-    <p>Ⓒ 2025 Mentor Support. All rights reserved</p>
-    <div>
-      <span>Follow us:</span>
-      <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
-      <a href="#"><img src="youtube.png" alt="YouTube"></a>
-      <a href="#"><img src="twitter.png" alt="Twitter"></a>
-      <a href="#"><img src="instagram.png" alt="Instagram"></a>
+  <footer class="footer">
+    <p class="footer__text">Ⓒ 2025 Mentor Support. All rights reserved</p>
+    <div class="footer__social">
+      <span class="footer__social-label">Follow us:</span>
+      <a href="#" class="footer__link"><img src="linkedin.png" alt="LinkedIn" /></a>
+      <a href="#" class="footer__link"><img src="youtube.png" alt="YouTube" /></a>
+      <a href="#" class="footer__link"><img src="twitter.png" alt="Twitter" /></a>
+      <a href="#" class="footer__link"><img src="instagram.png" alt="Instagram" /></a>
     </div>
   </footer>
 </body>
