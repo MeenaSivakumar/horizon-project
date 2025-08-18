@@ -235,3 +235,32 @@ body {
   }
 }
 
+.footer {
+  background: var(--color-bg-header);
+  color: var(--color-text-light);
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer__social {
+  display: flex;              
+  align-items: center;       
+  justify-content: center;   
+  gap: 0.75rem;              
+  margin-top: 0.5rem;
+}
+
+.footer__social-label {
+  font-weight: bold;
+}
+
+
+.footer__link img {
+  width: 24px;
+  margin: 0 0.5rem;
+  transition: transform 0.3s;
+}
+
+.footer__link img:hover {
+  transform: scale(1.2);
+}
