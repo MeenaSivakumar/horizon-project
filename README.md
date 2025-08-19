@@ -54,7 +54,7 @@ Grid-based mentor cards with hover effects, displaying mentor profiles with expe
 <img width="1470" height="804" alt="Screenshot 2025-08-19 at 12 03 04 AM" src="https://github.com/user-attachments/assets/935181fd-d70b-4ca3-8a53-f5f6965af8ad" />
 
 
-Professional contact form with proper form validation and modern styling.
+Professional contact form with  modern styling.
 
 ## 📖 Usage
 
@@ -114,7 +114,6 @@ mentor-connect/
 - **Minimal dependencies**: No external libraries required
 - **Optimized images**: Appropriate image sizes and formats
 - **Efficient CSS**: Clean, maintainable stylesheets
-- **Fast loading**: Lightweight implementation
 
 
 
