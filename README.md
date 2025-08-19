@@ -9,12 +9,9 @@ A modern, responsive web platform designed to connect students with experienced 
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Features in Detail](#features-in-detail)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## ✨ Features
 
