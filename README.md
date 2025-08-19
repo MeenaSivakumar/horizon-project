@@ -2,7 +2,7 @@
 
 A modern, responsive web platform designed to connect students with experienced mentors in various technology fields. Built with HTML5, CSS3, and modern web development practices.
 
-![Mentor Connect Hero Section](https://via.placeholder.com/800x400/233ed7/ffffff?text=Mentor+Connect+Hero+Section)
+(https://via.placeholder.com/800x400/233ed7/ffffff?text=Mentor+Connect+Hero+Section)
 
 ## 📋 Table of Contents
 
@@ -36,51 +36,28 @@ A modern, responsive web platform designed to connect students with experienced 
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](https://via.placeholder.com/800x500/233ed7/ffffff?text=Home+Page+with+Hero+Section)
+<img width="1470" height="804" alt="Screenshot 2025-08-19 at 12 02 29 AM" src="https://github.com/user-attachments/assets/981aeb9c-8493-47ff-8ecf-64f3b6aa32c1" />
+
 
 The home page features a striking hero section with a gradient background, showcasing the platform's mission to connect students with mentors.
 
 ### About Section
-![About Section](https://via.placeholder.com/800x400/ffffff/233ed7?text=About+Us+Section)
+<img width="1470" height="804" alt="Screenshot 2025-08-19 at 12 02 29 AM" src="https://github.com/user-attachments/assets/cf45428a-a1b0-492e-a71c-1978b9a74020" />
+
 
 Clean, centered layout explaining the platform's focus on hands-on training and practical knowledge.
 
 ### Mentors Section
-![Mentors Section](https://via.placeholder.com/800x600/ffffff/233ed7?text=Our+Mentors+Grid)
+<img width="1470" height="804" alt="Screenshot 2025-08-19 at 12 02 41 AM" src="https://github.com/user-attachments/assets/1a6a54c2-9598-48b4-a726-ec5e44508bda" />
+
 
 Grid-based mentor cards with hover effects, displaying mentor profiles with expertise and experience.
 
 ### Contact Form
-![Contact Form](https://via.placeholder.com/800x500/f7f7f7/233ed7?text=Contact+Us+Form)
+<img width="1470" height="804" alt="Screenshot 2025-08-19 at 12 03 04 AM" src="https://github.com/user-attachments/assets/935181fd-d70b-4ca3-8a53-f5f6965af8ad" />
+
 
 Professional contact form with proper form validation and modern styling.
-
-## 🛠 Technologies Used
-
-- **HTML5**: Semantic markup with accessibility features
-- **CSS3**: Modern styling with custom properties and responsive design
-- **CSS Grid & Flexbox**: Advanced layout techniques
-- **CSS Animations**: Smooth transitions and hover effects
-- **Responsive Design**: Mobile-first approach with media queries
-
-## 🚀 Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/mentor-connect.git
-   cd mentor-connect
-   ```
-
-2. **Open the project**
-   ```bash
-   # Using a local server (recommended)
-   python -m http.server 8000
-   # or
-   npx serve .
-   ```
-
-3. **View in browser**
-   Open `http://localhost:8000` in your web browser
 
 ## 📖 Usage
 
@@ -150,14 +127,6 @@ mentor-connect/
 - Ensure responsive design works on all devices
 - Maintain accessibility standards
 - Write clean, commented code
-
-
-##  Acknowledgments
-
-- Design inspiration from modern web design trends
-- CSS Grid and Flexbox for responsive layouts
-- Accessibility guidelines from WCAG 2.1
-- Modern web development best practices
 
 ---
 
