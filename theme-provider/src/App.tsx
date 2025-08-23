@@ -5,20 +5,20 @@ import { useState } from 'react'
 import { darkTheme, lightTheme } from './theme/theme'
 import { GlobalStyle } from './theme/GlobalStyle'
 import { Button } from './ui/atom/button/Button'
+import { DashBoard } from './pages/DashBoard'
 
 function App() {
  
-const[mode,setMode] = useState<'light'|'dark'>('light');
-const toggleTheme = ()=>{
-  setMode(mode === 'light'?'dark':'light');
-}
+// const[mode,setMode] = useState<'light'|'dark'>('light');
+// const toggleTheme = ()=>{
+//   setMode(mode === 'light'?'dark':'light');
+// }
   return (
     <>
-      <ThemeProvider theme={mode === 'light'? lightTheme:darkTheme}>
-      <GlobalStyle/>
-      <h1>click the button to switch between light and dark mode</h1>
-      <Button onClick={toggleTheme}>Switch Theme</Button>
-      </ThemeProvider>
+      
+      {/* <h1>click the button to switch between light and dark mode</h1>
+      <Button onClick={toggleTheme}>Switch Theme</Button> */}
+      <DashBoard/>
      
     </>
   )
