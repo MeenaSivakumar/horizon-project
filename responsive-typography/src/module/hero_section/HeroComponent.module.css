@@ -1,0 +1,36 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 60vh;
+    background: url("./src/assets/herobg.png") center/cover no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.herotitle{
+    font-size: 2rem;
+}
+.herosubtitle{
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 5px;
+}
+.herotitle:hover,.herosubtitle:hover{
+    color: red;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    padding: 0.75rem;
+    height: 25%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 4px 4px 12px pink;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
