@@ -1,0 +1,21 @@
+{
+  "name": "my-js-utils-lib",
+  "version": "1.0.0",
+  "description": "Reusable JavaScript utility functions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node demo/demo-arrays.js && node demo/demo-functions.js && node demo/demo-objects.js && node demo/demo-strings.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeenaSivakumar/horizon-project.git"
+  },
+  "keywords": ["utils", "javascript", "library"],
+  "author": "Meena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeenaSivakumar/horizon-project/issues"
+  },
+  "homepage": "https://github.com/MeenaSivakumar/horizon-project#readme"
+}
