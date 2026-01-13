@@ -1,3 +1,4 @@
+/* volor varaibles */
 :root {
   --color-bg-header: #233ed7;
   --color-text-light: #ffffff;
@@ -23,7 +24,7 @@ body {
   color: var(--color-text-dark);
 }
 
-
+/* header section */
 .header {
   background-color: var(--color-bg-header);
   color: var(--color-text-light);
@@ -49,7 +50,6 @@ body {
   
 
 }
-
 .header__link {
   color: var(--color-text-light);
   text-decoration: none;
@@ -63,7 +63,7 @@ body {
   outline: none;
 }
 
-
+/* hero section */
 .hero {
   display: flex;
   align-items: center;
@@ -84,7 +84,7 @@ body {
 .hero__subtitle {
   font-size: 1.2rem;
 }
-
+/* about */
 .about {
   display: flex;
   padding: 2rem;
@@ -98,7 +98,7 @@ body {
     color: var(--color-bg-header);
 
 }
-
+/* mentor csrds */
 .mentors {
   padding: 2rem;
 }
@@ -146,7 +146,7 @@ body {
 
 }
 
-
+/* contact us */
 .contact {
   padding: 2rem;
   background: #f7f7f7;
@@ -218,7 +218,7 @@ body {
   transform: translateY(-2px);
 }
 
-
+/* footer */
 .footer {
   background: var(--color-bg-header);
   color: var(--color-text-light);
@@ -248,7 +248,7 @@ body {
 .footer__link img:hover {
   transform: scale(1.2);
 }
-
+/* media query for responsive design accross devices */
 @media (max-width: 768px) {
   .header__nav .header__list {
     flex-direction: column;
